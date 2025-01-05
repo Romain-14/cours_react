@@ -1,6 +1,7 @@
 # cours live d'introduction
 
 Notions abordées :
+
 - installation d'un projet react avec viteJS
 - les composants
 - state

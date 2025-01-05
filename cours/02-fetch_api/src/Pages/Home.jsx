@@ -2,35 +2,18 @@ import { useEffect, useState } from "react";
 
 
 function Home() {
-    const [themeBook, setThemeBook] = useState("");
     const [datas, setDatas] = useState(null);
-    const [fantasyBooks, setFantasyBooks] = useState(null);
-    const [romanceBooks, setRomanceBooks] = useState(null);
     console.log("body component");
 
     // fetch fantasy
     useEffect(() => {
         console.log("useEffect component");
-
-        // fetch("https://api.jikan.moe/v4/anime")
         fetch("https://openlibrary.org/search.json?q=fantasy&limit=1&offset=0")
-        // fetch("https://jsonplaceholder.typicode.com/photos?_start=0&_limit=20")
         .then(res => res.json())
-        // .then(res => console.log(res))
-        .then(res => setFantasyBooks(res))
+        .then(res => setDatas(res))
         .catch(err => console.log(err))
         
     }, []);
-    useEffect(() => {
-
-        fetch("https://openlibrary.org/search.json?q=romance&limit=1&offset=0")
-        .then(res => res.json())
-        .then(res => setRomanceBooks(res))
-        .catch(err => console.log(err))
-        
-    }, []);
-
-
 
     return (
         <main id="home">

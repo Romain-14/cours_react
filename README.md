@@ -2,6 +2,8 @@
 
 Bienvenue dans ce programme d'apprentissage de React, conçu pour fournir des bases solides et des outils avancés pour gérer vos projets front-end. Ce programme est divisé en deux modules sur une durée totale de 8 jours.
 
+**Une présentation est également consultable dans `cours/REACT.pdf`**
+
 ---
 
 ## Objectifs
