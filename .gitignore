@@ -1,0 +1,2 @@
+# Ignorer tous les dossiers node_modules dans ce dépôt
+node_modules/
