@@ -1,18 +1,11 @@
 # FIL-ROUGE MODULE REACT
 
----
-
-*Les branches correctives seront disponibles étape par étape, en fonction de l'avancée dans le projet.*
-
----
-
 Créer une application React avec des routes de base, un design en SASS, et la consommation d'une API publique.
 
 ## Contexte
 
 Vous développez une application pour afficher et gérer des éléments récupérés d'une API publique. Le projet peut simuler un catalogue de films, une galerie d'art ou toute autre base de données interactive.
-
-Vous suivrez les différentes étapes de développement via un repository Git, chaque branche représentant une progression dans l'exercice.
+Une base de travail est donnée, correspondant à l'exercice 01 (Fetch All initial, Page d'accueil et Card Component).
 
 ---
 
@@ -26,15 +19,17 @@ Vous suivrez les différentes étapes de développement via un repository Git, c
 
 ---
 
-## Structure du repository
+## étapes
 
-### Branches et étapes
+1. Modélisation du plan du site (maquette/schema).
+2. Définition des routes et interfaces principales.
+3. Mise en place de la gestion utilisateur avec `Local Storage` (connexion et inscription).
+4. Création d’une interface d'administration avec un CRUD complet.
+5. Optimisation et déploiement de l'application sur un service cloud (Vercel).
 
-1. **`main`** : Fetch All initial, Page d'accueil et Card Component.
-2. **`step-1`** : Modélisation du plan du site (maquette/schema), définition des routes et interfaces principales.
-3. **`step-2`** : Mise en place de la gestion utilisateur avec `Local Storage` (connexion et inscription).
-4. **`step-3`** : Création d’une interface d'administration avec un CRUD complet.
-5. **`step-4`** : Optimisation et déploiement de l'application sur un service cloud (Vercel).
+---
+
+*Une validation par le formateur de l'étape terminée doit être effectué avant de passer à l'étape suivante*
 
 ---
 
@@ -58,6 +53,7 @@ Une application fonctionnelle comprenant :
 - [TMDb](https://developers.themoviedb.org/3/getting-started)
 - [PokeAPI](https://pokeapi.co/)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+- ou autre ...
 
 ### CLOUD
 
