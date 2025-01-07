@@ -44,7 +44,6 @@ function Home() {
                 
             </section>
 
-
         </main>
     )
 }

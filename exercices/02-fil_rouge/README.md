@@ -25,7 +25,17 @@ Une base de travail est donnée, correspondant à l'exercice 01 (Fetch All initi
 2. Définition des routes et interfaces principales.
 3. Mise en place de la gestion utilisateur avec `Local Storage` (connexion et inscription).
 4. Création d’une interface d'administration avec un CRUD complet.
-5. Optimisation et déploiement de l'application sur un service cloud (Vercel).
+5. **Bonus**:
+
+- Optimisation interface ( découpage en petit composant)
+- Menu responsive (burger menu)
+- Cryptage du mot de passe (bcrypt)
+- Interface dynamique ( nav qui propose un logout à la place de login si user connecté )
+- Mettre une favicon [(https://favicon.io/favicon-converter/)]
+- Mettre à jour les `title` des pages au montage des composants
+- Configurer le `head` de l'application (index.html), balises `meta` ...
+
+**FINAL** Optimisation et déploiement de l'application sur un service cloud (Vercel).
 
 ---
 
