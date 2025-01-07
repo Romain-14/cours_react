@@ -29,7 +29,6 @@ Une base de travail est donnée, correspondant à l'exercice 01 (Fetch All initi
 
 - Optimisation interface ( découpage en petit composant)
 - Menu responsive (burger menu)
-- Cryptage du mot de passe (bcrypt)
 - Interface dynamique ( nav qui propose un logout à la place de login si user connecté )
 - Mettre une favicon [(https://favicon.io/favicon-converter/)]
 - Mettre à jour les `title` des pages au montage des composants
