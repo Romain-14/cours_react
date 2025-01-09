@@ -13,9 +13,8 @@ Mettons en place un `Context` pour la gestion dynamique de l'interface pour un u
 1. Avoir un projet en place ou en créer un.
 2. Le Context API étant natif, il n'y pas installer de module supplémentaire.
 3. Dans `src`, créer un dossier `App` qui sera notre `store`.
-4. Dans `App`, créer un dossier `AuthProvider`.
-5. Dans `AuthProvider`, créer un composant `AuthProvider`.
-6. Y placer le code suivant :
+4. Dans `App`, créer un composant `AuthProvider`.
+5. Y placer le code suivant :
 
 ```jsx
 import { createContext, useState, useContext } from 'react';
@@ -36,7 +35,7 @@ const Provider = ({ children }) => {
 export default MyProvider;
 ```
 
-7. Dans `main.jsx`, englober le composant `App` par le composant `Provider`
+6. Dans `main.jsx`, englober le composant `App` par le composant `Provider`
 
 ```jsx
 // ...
@@ -46,7 +45,7 @@ export default MyProvider;
 // ...
 ```
 
-8. Consommer le `Context` dans un Composant, utiliser le Hook `useContext()`
+7. Consommer le `Context` dans un Composant, utiliser le Hook `useContext()`
 
 ```jsx
 import { useContext } from 'react';
