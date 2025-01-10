@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 import { AuthContext } from "../App/AuthProvider";
 
 function Header() {
-    // On consomme le contexte AuthContext pour récupérer l'objet user afin d'utiliser la propriété isLogged pour gérer dynamiquement l'affichage du menu de navigation
+	// On consomme le contexte AuthContext pour récupérer l'objet user afin d'utiliser la propriété isLogged pour gérer dynamiquement l'affichage du menu de navigation
 	const { user } = useContext(AuthContext);
 
 	return (
 		<header>
 			<nav>
 				<NavLink to="/" end>
-					Home
+					home
 				</NavLink>
 				{user.isLogged ? (
 					<>
