@@ -11,7 +11,7 @@ const store = configureStore({
 	reducer: {
         // authReducer est le reducer du authSlice qui gère l'état de connexion de l'utilisateur
         // on lui donne un petit nom pour pouvoir le retrouver plus facilement
-		auth: authReducer, 
+		auth: authReducer,
 	},
 });
 

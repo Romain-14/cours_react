@@ -13,8 +13,9 @@ const authSlice = createSlice({
         // state est l'état actuel du slice
         // action est l'action qui est envoyée par le composant (via le dispatch), la donnée se trouve dans action.payload
 		login(state, action) {
+            // action.payload = "John";
             // RTK utilise immer pour gérer l'immuabilité de l'état on peut donc modifier l'état directement
-			state.username = action.payload;
+			state.username = action.payload; // setUsername(action.payload)
 			state.isLogged = true;
 		},
 		logout(state) {

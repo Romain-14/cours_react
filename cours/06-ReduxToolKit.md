@@ -20,10 +20,10 @@ npm install react-redux @reduxjs/toolkit
 
 ```txt
 src
-|**_app
-|_**assets
-|**_features
-|_**App.jsx
+|___app
+|___assets
+|___features
+|___App.jsx
 |___main.jsx
 .gitignore
 ...

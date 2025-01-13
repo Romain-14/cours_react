@@ -18,7 +18,7 @@ function Login() {
         // vérification en BDD des informations de l'utilisateur
         // ...
         // Si tout est OK on passe à la mise à jour de l'état de connexion pour notre interface dynamique
-        dispatch(login(username));
+        dispatch(login(username)); // si username vaut "John"
         // et on redirige
         navigate("/");
 	}
