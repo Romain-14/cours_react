@@ -23,7 +23,7 @@ src
 |_**assets
 |**_features
 |_**App.jsx
-|\_\_\_main.jsx
+|___main.jsx
 .gitignore
 ...
 
