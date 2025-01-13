@@ -180,11 +180,11 @@ Nous verrons plus tard sa version pour gérer les requêtes vers des API.
 
 ### Résumé des fonctions
 
-`configureStore` : Permet de configurer un store Redux qui contient tous nos slices et configure les middleware comme Redux DevTools pour le débogage.
-`createSlice` : Permet de créer un slice, un objet qui contient l'état initial, les fonctions pour modifier cet état (reducers), et les actions associées automatiquement.
-`Provider` : Permet de rendre le store Redux accessible à tous les composants de l'application, en les connectant au store via le contexte de Redux, généralement placé au niveau supérieur de l'arborescence des composants.
-`useSelector` : Permet de lire (sélectionner) des données spécifiques depuis le store Redux, en accédant à l'état global.
-`useDispatch` : Permet d'envoyer (distribuer) des actions au store Redux depuis un composant React pour modifier l'état global de l'application.
+- `configureStore` : Permet de configurer un store Redux qui contient tous nos slices et configure les middleware comme Redux DevTools pour le débogage.
+- `createSlice` : Permet de créer un slice, un objet qui contient l'état initial, les fonctions pour modifier cet état (reducers), et les actions associées automatiquement.
+- `Provider` : Permet de rendre le store Redux accessible à tous les composants de l'application, en les connectant au store via le contexte de Redux, généralement placé au niveau supérieur de l'arborescence des composants.
+- `useSelector` : Permet de lire (sélectionner) des données spécifiques depuis le store Redux, en accédant à l'état global.
+- `useDispatch` : Permet d'envoyer (distribuer) des actions au store Redux depuis un composant React pour modifier l'état global de l'application.
 
 ## Redux ToolKit Query
 
