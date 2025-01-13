@@ -18,6 +18,7 @@ npm install react-redux @reduxjs/toolkit
 
 ### 3. Créer les dossiers `app` et `features` pour reproduire la structure ci-dessous
 
+```txt
 src
 |**_app
 |_**assets
@@ -26,6 +27,7 @@ src
 |___main.jsx
 .gitignore
 ...
+```
 
 ### 4. Créer le fichier `store.js` dans le dossier `app` avec le contenu suivant
 
