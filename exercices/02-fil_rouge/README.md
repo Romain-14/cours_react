@@ -38,10 +38,6 @@ Une base de travail est donnée, correspondant à l'exercice 01 (Fetch All initi
 
 ---
 
-*Une validation par le formateur de l'étape terminée doit être effectué avant de passer à l'étape suivante*
-
----
-
 ## Livrables attendus
 
 Une application fonctionnelle comprenant :
