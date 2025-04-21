@@ -41,4 +41,4 @@ npm run dev
 ### type de package lors de l'installation
 
 - JavaScript + SWC (Speedy Web Compiler) car ce dernier permets de personnaliser la transpilation et d'utiliser du code moderne.
-- JavaScript simple utilise le compilateur personnalisé de vite `esbuild` qui est aussi rapide, et peu suffire dans la plupart des projets surtout en débutant, mais n'a pas la personnalisation de SWC.
+- JavaScript simple utilise le compilateur personnalisé de Vite : `esbuild`, qui est aussi rapide, et peu suffire dans la plupart des projets surtout en débutant, mais n'a pas la personnalisation de SWC.
