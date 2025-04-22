@@ -10,7 +10,7 @@ npm create vite@latest
 
 - le nom du projet
 - la vue à utiliser ( React )
-- type de package -> JavaScript + SWC (détail plus bas)
+- type de package -> JavaScript (détail ligne 41)
 
 ## 3. télécharger/Installer les packages
 
@@ -37,6 +37,8 @@ npm run dev
 
 - installer les packages :
   - `sass` -> préprocesseur CSS
+  - `react-router-dom` -> routeur
+  - ...
 
 ### type de package lors de l'installation
 
