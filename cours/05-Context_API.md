@@ -1,6 +1,6 @@
 # CONTEXT API
 
-Le `Contexte` dans React désigne une interface avec des méthodes spécifiques permettant de gérer des états au niveau global de l'application, ce qui évite le problème du `props drilling` et du `lifting state up`. 
+Le `Contexte` dans React désigne une interface avec des méthodes spécifiques permettant de gérer des états au niveau global de l'application, ce qui évite le problème du `props drilling` et du `lifting state up`.
 Ce mécanisme fonctionne en englobant des composants dans un composant responsable de la gestion des états, qui va hydrater ces composants avec les états ou les fonctions de mise à jour de ces états.
 Les composants vont `consommer` le Context, dans lequel on pourra `s'abonner` pour pouvoir utiliser ces états et fonctions.
 
@@ -16,28 +16,30 @@ Mettons en place un `Context` pour la gestion dynamique de l'interface pour un u
 4. Dans `App`, créer un composant `AuthProvider`.
 5. Y placer le code suivant :
 
-```jsx
-import { createContext, useState, useContext } from 'react';
+    ```jsx
+    import { createContext, useState, useContext } from 'react';
 
-// Create a Context
-const AuthContext = createContext();
+    // Create a Context
+    const AuthContext = createContext();
 
-const Provider = ({ children }) => {
-  const [isLogged, setIsLogged] = useState(false);
+    const Provider = ({ children }) => {
+        const [isLogged, setIsLogged] = useState(false);
 
-  return (
-    <AuthContext.Provider value={{ isLogged, setIsLogged }}>
-      {children}
-    </AuthContext.Provider>
-  );
-};
+        return (
+            <AuthContext.Provider value={{ isLogged, setIsLogged }}>
+            {children}
+            </AuthContext.Provider>
+        );
+    };
 
-export default MyProvider;
-```
+    export default Provider;
+    ```
 
 6. Dans `main.jsx`, englober le composant `App` par le composant `Provider`
 
 ```jsx
+
+import AuthProvider from "../store/context/auth";
 // ...
   <AuthProvider>
     <App />

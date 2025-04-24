@@ -1,20 +1,18 @@
-# Redux ToolKit + RTK Query
+# Redux ToolKit
 
 Redux est une bibliothèque de gestion d'état prédictible pour les applications JavaScript, souvent utilisée avec React pour partager des données entre les composants. Redux Toolkit (RTK) est une version simplifiée et moderne de Redux, qui réduit la complexité en fournissant des outils pour configurer le store, créer des reducers, et gérer l'état de manière efficace. RTK simplifie également l'intégration avec des API via **RTK Query**, qui facilite les appels API et leur gestion dans l'état global.
 
-## Redux ToolKit
-
 1. Démarrer un nouveau projet react vite JS + SWC
 
-    ```bash
-    npm create vite@latest nomProjet -- --template react-swc
-    ```
+```bash
+npm create vite@latest nomProjet -- --template react-swc
+```
 
 2. Installer les dépendances RTK
 
-    ```bash
-    npm install react-redux @reduxjs/toolkit
-    ```
+```bash
+npm install react-redux @reduxjs/toolkit
+```
 
 3. Créer les dossiers `app` et `features` pour reproduire la structure ci-dessous
 
@@ -175,7 +173,7 @@ Redux est une bibliothèque de gestion d'état prédictible pour les application
     }
     ```
 
-### Résumé des fonctions
+## Résumé des fonctions
 
 - `configureStore` : Permet de configurer un store Redux qui contient tous nos slices et configure les middleware comme Redux DevTools pour le débogage.
 - `createSlice` : Permet de créer un slice, un objet qui contient l'état initial, les fonctions pour modifier cet état (reducers), et les actions associées automatiquement.
